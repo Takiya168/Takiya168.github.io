@@ -4451,4 +4451,26 @@
 		}
 	}
 
+/* ===== 强制修复背景图 ===== */
+body {
+    background: url('/img/bg.jpg') center center fixed !important;
+    background-size: cover !important;
+    min-height: 100vh !important;
+}
 
+body:before {
+    display: none !important;
+}
+
+.wrapper, .container, .content, .main-content, .post-content {
+    background: rgba(255, 255, 255, 0.92) !important;
+}
+
+.avatar img, .profile img, .user-image {
+    width: 150px !important;
+    height: 150px !important;
+    border-radius: 50% !important;
+    object-fit: cover !important;
+    display: block !important;
+    margin: 0 auto !important;
+}
