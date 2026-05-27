@@ -15,16 +15,16 @@ Intro:
 
 Nav:
     Home_name: 主页
-    is_use_categories : true 
+    is_use_categories : true
     categories_name: 分类
-    is_use_archives : false
+    is_use_archives : true
     archives_name: 归档
     
     #Social
     # for more icons, please see http://fontawesome.io/icons/#brand
     icon:
-        github: https://github.com/miccall
-        500px: http://500px.com
+        github: https://github.com/Takiya168
+        external-link: https://space.bilibili.com/524246942
         
     pages:
         简历: 
@@ -110,4 +110,4 @@ busuanzi:
 mathjax:
   enable: true
   per_page: false
-  cdn: //cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML
+  cdn: //cdn.jsdelivr.net/npm/mathjax@2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML
