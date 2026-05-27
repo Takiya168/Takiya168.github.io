@@ -9,9 +9,9 @@ head:
     backgroundpic: "/img/bg.jpg"
 
 Intro:
-    name: MICCALL
-    slogan: "Whatever is worth doing is worth doing well <br/> I'll think of you every step of the way"
-    HeadButton: MICCALL
+    name: Takiya
+    slogan: "须知少年凌云志，曾许人间第一流"
+    HeadButton: welecome
 
 Nav:
     Home_name: 主页
