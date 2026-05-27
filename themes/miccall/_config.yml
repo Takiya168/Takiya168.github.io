@@ -4,9 +4,9 @@
 
 # Head info
 head:
-    favicon: "/img/logo_miccall.png"
-    keywords: miccall
-    backgroundpic : "img/bg.jpg"
+    favicon: "/img/logo.png"
+    keywords: 编程，魔方，生活
+    backgroundpic: "/img/bg.jpg"
 
 Intro:
     name: MICCALL
@@ -39,9 +39,9 @@ Nav:
         #   link：“路径”
 
 MainFirst:
-    name: Miccall Metro
-    description: Technical  Artist  of  Games   
-    pic_url: /images/me.jpg
+    name: Takiya
+    description: Acmer and Cuber
+    pic_url: "/images/me.jpg"
     goto_ulr: ""
 
 Gallery :
