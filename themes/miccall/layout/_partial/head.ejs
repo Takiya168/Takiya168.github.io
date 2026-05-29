@@ -1,4 +1,4 @@
-    <title>
+<title>
     <%-config.title %>
     </title>
     <meta charset="utf-8" />
@@ -24,3 +24,118 @@
           background-size: cover; 
         }
     </style>
+    <style>
+ <style>
+  /* 强制去掉所有代码块边框 - 最高优先级 */
+  figure.highlight,
+  .highlight,
+  figure.highlight pre,
+  .highlight pre,
+  pre.highlight,
+  .highlight table,
+  .highlight tbody,
+  .highlight tr,
+  .highlight td,
+  .gutter,
+  .code {
+    border: none !important;
+    border-style: none !important;
+    border-width: 0 !important;
+    border-left: none !important;
+    border-right: none !important;
+    border-top: none !important;
+    border-bottom: none !important;
+    box-shadow: none !important;
+    outline: none !important;
+  }
+  
+  /* 去掉 figure 的边框和背景 */
+  figure.highlight {
+    background: transparent !important;
+    margin: 20px 0 !important;
+    padding: 0 !important;
+  }
+  
+  /* 去掉 pre 标签的边框 */
+  figure.highlight pre,
+  .highlight pre {
+    background: #f6f8fa !important;
+    border: none !important;
+    border-radius: 6px !important;
+    padding: 16px !important;
+    margin: 0 !important;
+  }
+  
+  /* 去掉左侧装饰条（如果有） */
+  figure.highlight:before,
+  figure.highlight:after,
+  .highlight:before,
+  .highlight:after {
+    display: none !important;
+    content: none !important;
+  }
+</style>
+
+<style>
+  /* 只去掉最外面的线条边框，保留背景 */
+  figure.highlight,
+  .highlight {
+    border: none !important;
+    border-style: none !important;
+    border-width: 0 !important;
+    box-shadow: none !important;
+    outline: none !important;
+  }
+  
+  /* 保留背景框，但确保没有边框 */
+  figure.highlight pre,
+  .highlight pre {
+    background: #f6f8fa !important;
+    border: none !important;
+    border-radius: 6px !important;
+    padding: 16px !important;
+    box-shadow: none !important;
+  }
+  
+  /* 去掉 table 相关的边框 */
+  figure.highlight table,
+  figure.highlight tbody,
+  figure.highlight tr,
+  figure.highlight td {
+    border: none !important;
+  }
+</style>
+
+<style>
+  /* 修改代码块中 URL 和链接的颜色 */
+  .highlight .line,
+  .highlight code,
+  .highlight pre {
+    color: #333333 !important;  /* 改成深灰色，你可以换成其他颜色 */
+  }
+  
+  /* 特别针对包含 localhost 或 http 的行 */
+  .highlight .line:contains("localhost"),
+  .highlight .line:contains("http"),
+  .highlight .line:contains(".com"),
+  .highlight .line:contains(".cn") {
+    color: #1990b8 !important;  /* 改成蓝色 */
+  }
+  
+  /* 或者统一所有代码文字为深灰色 */
+  .code pre,
+  .highlight .line {
+    color: #2c3e50 !important;  /* 深蓝灰色 */
+  }
+</style>
+
+<style>
+  /* 修改正文中行内代码（短代码）的颜色 */
+  code:not([class*="language-"]) {
+    color: #1990b8 !important;  /* 改成蓝色，你可以换其他颜色 */
+    background: #f0f0f0 !important;  /* 可选：浅灰色背景 */
+    padding: 2px 4px !important;
+    border-radius: 4px !important;
+  }
+  
+</style>

@@ -15,33 +15,28 @@ Intro:
 
 Nav:
     Home_name: 主页
-    is_use_categories : true
+    is_use_categories : false
     categories_name: 分类
-    is_use_archives : true
+    is_use_archives : false
     archives_name: 归档
     
     #Social
     # for more icons, please see http://fontawesome.io/icons/#brand
     icon:
         github: https://github.com/Takiya168
-        external-link: https://space.bilibili.com/524246942
         
     pages:
-        简历: 
-            link: "/about/"
-        团队 :
-            link: "/group/"
         图库 :
             link: "/gallery/"
-        标签:
-            link: "/tag/"
+        B站 :
+            link: https://space.bilibili.com/524246942  
         #自定义标签名
         #   link：“路径”
 
 MainFirst:
     name: Takiya
     description: Acmer and Cuber
-    pic_url: "/images/me.jpg"
+    pic_url: "/img/me.jpg"
     goto_ulr: ""
 
 Gallery :

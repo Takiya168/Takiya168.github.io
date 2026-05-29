@@ -4474,3 +4474,44 @@ body:before {
     display: block !important;
     margin: 0 auto !important;
 }
+/* 优化代码块样式 */
+pre {
+    background: #2d2d2d;
+    border-radius: 12px;
+    padding: 1rem;
+    overflow-x: auto;
+    margin: 1.5rem 0;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+code {
+    font-family: 'SF Mono', Monaco, 'Cascadia Code', monospace;
+    font-size: 0.9em;
+}
+
+/* 行内代码 */
+:not(pre) > code {
+    background: #f0f0f0;
+    color: #d14;
+    padding: 0.2em 0.4em;
+    border-radius: 6px;
+    font-size: 0.85em;
+}
+/* ===== 简洁黑色圆角代码块（无边框无线条） ===== */
+pre {
+    background: #0a0e12 !important;
+    color: #abb2bf !important;
+    border-radius: 12px;
+    padding: 1.2rem;
+    margin: 1.5rem 0;
+    overflow-x: auto;
+    box-shadow: none;           /* 去掉阴影 */
+    border: none;               /* 去掉边框 */
+}
+
+pre code {
+    display: block;
+    font-family: 'SF Mono', 'Monaco', 'Cascadia Code', monospace;
+    font-size: 0.85rem;
+    line-height: 1.5;
+}
